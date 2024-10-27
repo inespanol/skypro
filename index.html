@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>GIT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="header">
+<header class="header center">
     <div class="header__block">
         <h1 class="header__title">Добро пожаловать на мой сайт мини-игр</h1>
         <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. <br>Если готов, нажимай <b>"Поехали!"</b> и <b>приступай.</b></p>
@@ -36,35 +39,46 @@
         <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
             </svg>
-        <h3>КАМЕНЬ, НОЖНИЦЫ, БУМАГА</h3>  
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
-            </svg>
-        <h3>ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</h3>  
-        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z" fill="#202027"/>
-            </svg>
-        </div>      
+    </div>      
    </div>
-<section class="games">
+<section class="games center">
     <div class="games__about" id="games__about">
         <h2 class="games__title">Об играх</h2>
         <p class="games__text">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в них может поиграть каждый. Все игры доступны для пользования.</p>
     <div class="games__box">
-        <a href="#"> 
-        <article class="games__small_item">
-        <img src="img/game-small_1.png" class="games__small_img" alt="">
-        <p class="games__small_text">Игра №1</p>
-        <h3 class="games__small_title">Угадай число</h3>
-    </article>
-    </a>
+        <div class="games__column">
+            <a href="#"> 
+                <article class="games__small_item">
+                <img src="img/game-small_1.png" class="games__small_img" alt="">
+                <p class="games__small_text">Игра №1</p>
+                <h3 class="games__small_title">Угадай число</h3>
+            </article>
+            </a>
+            <a href="#">
+                <article class="games__small_item2">
+                <img src="img/game-small_4.png" class="games__small_img" alt="">
+                <p class="games__small_text">Игра №4</p>
+                <h3 class="games__small_title">Камень, ножницы, бумага</h3>
+            </article>
+            </a>
+        </div>
+    <div class="games__column">   
     <a href="#">
-    <article class="games__small_item">
+    <article class="games__small_item1">
         <img src="img/game-small_2.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №2</p>
         <h3 class="games__small_title">Простая арифметика</h3>
     </article>
     </a>
+    <a href="#">
+        <article class="games__small_item1">
+        <img src="img/game-small_5.png" class="games__small_img" alt="">
+        <p class="games__small_text">Игра №5</p>
+        <h3 class="games__small_title">Простая викторина</h3>
+    </article>
+    </a>
+    </div>
+    <div class="games__column">
     <a href="#">
     <article class="games__small_item">
         <img src="img/game-small_3.png" class="games__small_img" alt="">
@@ -73,31 +87,17 @@
     </article>
     </a>
     <a href="#">
-        <article class="games__small_item">
-        <img src="img/game-small_4.png" class="games__small_img" alt="">
-        <p class="games__small_text">Игра №4</p>
-        <h3 class="games__small_title">Камень, ножницы, бумага</h3>
-    </article>
-    </a>
-    <a href="#">
-        <article class="games__small_item">
-        <img src="img/game-small_5.png" class="games__small_img" alt="">
-        <p class="games__small_text">Игра №5</p>
-        <h3 class="games__small_title">Простая викторина</h3>
-    </article>
-    </a>
-    <a href="#">
-        <article class="games__small_item">
+        <article class="games__small_item2">
         <img src="img/game-small_6.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №6</p>
         <h3 class="games__small_title">Генератор случайных цветов</h3>
     </article>
     </a>
+    </div>
     </div>  
     </div>
-    
 </section>
-<footer class="footer">
+<footer class="footer center">
     <h3 class="footer__title">Все права защищены.</h3>
 </footer>
 </body>
