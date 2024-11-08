@@ -133,9 +133,8 @@ body {
 }
 .games__about {
   position: relative;
-  height: auto;
   padding-top: 94px;
-  position: relative;
+  padding-bottom: 50px;
 }
 .games__title {
   font-size: 64px;
@@ -225,7 +224,7 @@ body {
 
 .footer {
   background: rgb(189, 237, 53);
-  height: 150px;
+  max-height: 150px;
   background-size: cover;
 }
 
@@ -297,9 +296,8 @@ body {
   .stars {
     display: none;
   }
-  .games__box {
-    display: flex;
-    flex-direction: column;
+  .games {
+    display: none;
   }
   .footer {
     height: 100px;
@@ -310,5 +308,6 @@ body {
     line-height: 19.5px;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

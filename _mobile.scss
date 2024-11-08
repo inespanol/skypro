@@ -56,10 +56,8 @@
   .stars {
     display: none;
   }
-  .games__box {
-    display: flex;
-    flex-direction: column;
- 
+  .games {
+    display: none;
   }
   .footer {
     height: 100px;
@@ -70,5 +68,6 @@
     line-height: 19.5px;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 }

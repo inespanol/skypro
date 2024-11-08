@@ -124,9 +124,8 @@
 
 &__about {  
   position: relative;
-  height: auto;
-  padding-top: 94px;
-  position: relative;  
+  padding-top: 94px; 
+  padding-bottom: 50px;
 }
 &__title {
 font-size: 64px;
@@ -217,7 +216,7 @@ color: #271A58;
 }
 .footer {
   background: rgb(189, 237, 53);
-  height: 150px;
+  max-height: 150px;
   background-size: cover;
 }
 .footer__title {
