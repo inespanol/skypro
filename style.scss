@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+  }  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+  .header {
+    background-color: #E1FF8F;
+    max-width: 100%;
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: auto;
+    overflow: hidden; 
+  
+&__title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78.02px;
+    text-align: left;
+  }
+&__block {
+    width: 769px;
+    height: 244px;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding-top: 196px; 
+}
+&__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: black;
+}
+&__button {
+    width: 247px;
+    height: 66px;
+    padding: 16px 28px;
+    border-radius: 60px;
+    background-color: black;
+    border: 1px solid #202027;
+    color: white;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 24px;
+  }
+&__button:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+&__bottom {
+  background-color: rgb(188, 236, 48);
+  height: 90px;  
+}
+&__bottom_title {
+  display: flex;
+  flex-direction: row;
+  gap: 51px;
+  flex-wrap: wrap;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #202027;  
+  padding-top: 27px;
+  justify-content: space-around;
+}
+&__bottom_title_mob {
+  display: none;
+}
+}
+.stars_1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+.stars_2 {
+  position: absolute;
+  top: 69px;
+  left: 156px;
+}
+.stars_3 {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+}
+.stars_4 {
+  position: absolute;
+  top: 538px;
+  right: 455px;
+}
+.stars_5 {
+  position: absolute;
+  top: 568px;
+  right: 344px;
+}
+.games {
+  max-width: 100%;
+  background-image: url(img/Star\ 1.svg);
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: 1200px 77px;
+
+&__about {  
+  position: relative;
+  padding-top: 94px; 
+  padding-bottom: 50px;
+}
+&__title {
+font-size: 64px;
+font-weight: 700;
+line-height: 78.02px;
+text-align: left;
+color: white;
+}
+
+&__text {
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: white;
+margin-top: 24px;
+width: 768px;
+}
+&__box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 72px;
+}
+&__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+&__small_item {
+  width: 378px;
+  height: 473px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  transition: transform 0.3s;
+  box-shadow: 0px 12.61px 42.25px -7.57px #00000021;
+}
+&__small_item1 {
+  width: 378px;
+  height: 512px;
+  border-radius: 30px;
+  background:#FFFFFF;
+  transition: transform 0.3s;
+  box-shadow: 0px 12.61px 42.25px -7.57px #00000021;
+}
+&__small_item2 {
+  width: 378px;
+  height: 551px;
+  border-radius: 30px;
+  background:#FFFFFF;
+  transition: transform 0.3s;
+  box-shadow: 0px 12.61px 42.25px -7.57px #00000021;
+}
+&__small_item:hover {
+  transform: scale(1.1);
+}
+&__small_item1:hover {
+  transform: scale(1.1);
+}
+&__small_item2:hover {
+  transform: scale(1.1);
+}
+&__small_title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 16px;
+  color: #202027;
+  line-height: 39.01px;
+  width: 314px;
+}
+&__small_text {
+width: 108px;
+height: 36px;
+padding: 8px 16px 10px 16px;
+border-radius: 52.58px;
+background: #F7F7F7;
+box-sizing: border-box;
+margin-top: 32px;
+margin-left: 32px;
+font-size: 16px;
+font-weight: 500;
+line-height: 17.6px;
+text-align: left;
+color: #271A58;
+}
+}
+.footer {
+  background: rgb(189, 237, 53);
+  max-height: 150px;
+  background-size: cover;
+}
+.footer__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@import 'mobile';

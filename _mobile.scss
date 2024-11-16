@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    background-image: url(img_mob/Vector.svg), url(img_mob/Star\ 2.svg), url(img_mob/Star\ 3.svg), url(img_mob/Star\ 4.svg), url(img_mob/Star\ 5.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top right, top 97px left 37px, top 64px left 91px, bottom 79px right 34px, bottom 125px right 84px;
+    display: flex;
+    justify-content: center;
+  }
+  .header__block {
+    width: 280px;
+    height: 296px;
+    align-items: center;
+    display: flex;
+  }
+  .header__title {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+  }
+  .header__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+  }
+  .header__button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.67px;
+    text-align: center;
+  }
+  .header__bottom {
+    height: 51px;
+    border-color: black;
+  }
+  .header__bottom_title {
+    display: none;
+  }
+  .header__bottom_title_mob {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17.6px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 16px;
+  }
+  .stars {
+    display: none;
+  }
+  .games {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
