@@ -119,8 +119,10 @@ body {
   max-width: 100%;
   background-repeat: no-repeat;
   background-color: black;
-  background-image: url(img/Star\ 6.svg), url(img/Star\ 8.svg), url(img/Star\ 10.svg), url(img/Star\ 7.svg), url(img/Star\ 1.svg); 
-  background-position: top 1596px right 45px, bottom 65px right 52px, bottom 45px right 150px, top 1563px right 124px, top 77px right;
+  background-image: url(img/Star\ 6.svg), url(img/Star\ 8.svg),
+    url(img/Star\ 10.svg), url(img/Star\ 7.svg), url(img/Star\ 1.svg);
+  background-position: top 1596px right 45px, bottom 65px right 52px,
+    bottom 45px right 150px, top 1563px right 124px, top 77px right;
   &__about {
     position: relative;
     padding-top: 94px;
@@ -212,6 +214,9 @@ body {
     text-align: left;
     color: #271a58;
   }
+  &__mini {
+    padding-top: 46px;
+  }
   &__mini_box {
     display: flex;
     flex-direction: column;
@@ -241,38 +246,35 @@ body {
     justify-content: flex-end;
     transition: transform 0.4s;
   }
-&__mini_item1:hover {
-  transform: scale(1.08);
-}
-&__mini_item:hover {
-  transform: scale(1.08);
-}
-&__mini {
-  margin-top: 46px;  
-}
-&__mini_info {
-  padding-top: 48px;
-  padding-left: 48px;
-  width: 457px;
-}
-&__mini_title {
-font-size: 48px;
-font-weight: 700;
-line-height: 58.51px;
-text-align: left;
-text-underline-position: from-font;
-color: #202027;
-margin-bottom: 24px;
-}
-&__mini_text {
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 32px;
-  text-align: left;
-  text-underline-position: from-font;
-  color: #202027;  
-  margin-bottom: 36px;
-}
+  &__mini_item1:hover {
+    transform: scale(1.08);
+  }
+  &__mini_item:hover {
+    transform: scale(1.08);
+  }
+  &__mini_info {
+    padding-top: 48px;
+    padding-left: 48px;
+    width: 457px;
+  }
+  &__mini_title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #202027;
+    margin-bottom: 24px;
+  }
+  &__mini_text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #202027;
+    margin-bottom: 36px;
+  }
 }
 .footer {
   background: rgb(189, 237, 53);
