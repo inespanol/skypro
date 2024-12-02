@@ -221,6 +221,9 @@ body {
   text-align: left;
   color: #271a58;
 }
+.games__mini {
+  padding-top: 46px;
+}
 .games__mini_box {
   display: flex;
   flex-direction: column;
@@ -255,9 +258,6 @@ body {
 }
 .games__mini_item:hover {
   transform: scale(1.08);
-}
-.games__mini {
-  margin-top: 46px;
 }
 .games__mini_info {
   padding-top: 48px;
@@ -318,7 +318,6 @@ body {
     display: flex;
   }
   .header__title {
-    font-family: Montserrat;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.76px;
@@ -358,7 +357,50 @@ body {
     display: none;
   }
   .games {
+    background-image: none;
+  }
+  .games__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: left;
+  }
+  .games__about {
     display: none;
+  }
+  .games__mini_info {
+    width: 284px;
+    padding-top: 29px;
+    padding-bottom: 32px;
+  }
+  .games__mini_box {
+    gap: 24px;
+    margin-top: 48px;
+    padding-bottom: 48px;
+  }
+  .games__mini_title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .games__mini_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .games__mini_item {
+    width: 343px;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .games__mini_item1 {
+    width: 343px;
+    height: 100%;
+    flex-direction: column-reverse;
   }
   .footer {
     height: 100px;
