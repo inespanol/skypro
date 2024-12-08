@@ -53,14 +53,14 @@
         <p class="games__text">В моей коллекции представлено 6 игр на разные темы. Игры несложные — в них может поиграть каждый. Все игры доступны для пользования.</p>
     <div class="games__box">
         <div class="games__column">
-            <a href="#"> 
+            <a href="#game1"> 
                 <article class="games__small_item">
                 <img src="img/game-small_1.png" class="games__small_img" alt="">
                 <p class="games__small_text">Игра №1</p>
                 <h3 class="games__small_title">Угадай число</h3>
             </article>
             </a>
-            <a href="#">
+            <a href="#game4">
                 <article class="games__small_item2">
                 <img src="img/game-small_4.png" class="games__small_img" alt="">
                 <p class="games__small_text">Игра №4</p>
@@ -69,14 +69,14 @@
             </a>
         </div>
     <div class="games__column">   
-    <a href="#">
+    <a href="#game2">
     <article class="games__small_item1">
         <img src="img/game-small_2.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №2</p>
         <h3 class="games__small_title">Простая арифметика</h3>
     </article>
     </a>
-    <a href="#">
+    <a href="#game5">
         <article class="games__small_item1">
         <img src="img/game-small_5.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №5</p>
@@ -85,14 +85,14 @@
     </a>
     </div>
     <div class="games__column">
-    <a href="#">
+    <a href="#game3">
     <article class="games__small_item">
         <img src="img/game-small_3.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №3</p>
         <h3 class="games__small_title">Переверни текст</h3>
     </article>
     </a>
-    <a href="#">
+    <a href="#game6">
         <article class="games__small_item2">
         <img src="img/game-small_6.png" class="games__small_img" alt="">
         <p class="games__small_text">Игра №6</p>
@@ -102,64 +102,63 @@
     </div>
     </div>  
     </div>
-<div class="games__mini center">
+<div class="games__mini">
     <h2 class="games__title">Мини-игры</h2>
 <div class="games__mini_box">
-    <article class="games__mini_item">
+    <article class="games__mini_item" id="game1">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Угадай число</h3>
         <p class="games__mini_text">Попробуй угадать случайное число от 1 до 100.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button onclick="game1()" class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (1).png" class="games__mini_img" alt="">
     </article>
-    <article class="games__mini_item1">
+    <article class="games__mini_item1" id="game2">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Простая арифметика</h3>
         <p class="games__mini_text">Попробуй решить простые арифметические задачи.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (2).png" class="games__mini_img" alt="">
     </article> 
-    <article class="games__mini_item">
+    <article class="games__mini_item" id="game3">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Переверни текст</h3>
         <p class="games__mini_text">Попробуй ввести текст, который будет перевернут.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (3).png" class="games__mini_img" alt="">
     </article>
-    <article class="games__mini_item1">
+    <article class="games__mini_item1" id="game5">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Викторина</h3>
         <p class="games__mini_text">Отвечай на вопросы викторины с вариантами ответов.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (4).png" class="games__mini_img" alt="">
     </article> 
-    <article class="games__mini_item">
+    <article class="games__mini_item" id="game4">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Камень, ножницы, бумага</h3>
         <p class="games__mini_text">Сыграй в популярную игру против компьютера.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (5).png" class="games__mini_img" alt="">
     </article>
-    <article class="games__mini_item1">
+    <article class="games__mini_item1" id="game6">
         <div class="games__mini_info">
         <h3 class="games__mini_title">Генератор случайных цветов</h3>
         <p class="games__mini_text">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
-        <a href="#games__about" class="header__button">Играть!</a>
+        <button class="header__button">Играть!</button>
         </div>
         <img src="img/Обложка карточки (6).png" class="games__mini_img" alt="">
     </article> 
+</div>
 </div>
 </section>
 <footer class="footer center">
     <h3 class="footer__title">Все права защищены.</h3>
 </footer>
-<!--<script src="hw1-2.js"></script>-->
-<!--<script src="hw3.js"></script>-->
-<script src="hw4.js"></script>
+<script src="mini-games.js"></script>
 </body>
 </html>
