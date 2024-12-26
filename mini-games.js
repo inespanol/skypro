@@ -64,14 +64,18 @@ function game2() {
         const correctAnswer = solveTask(randomNumber1, randomNumber2);
         if (userAnswer === correctAnswer) {
             console.log('Верный ответ!');
-        } else {
+            } else {
             console.log(`Ошибка! Правильный ответ: ${correctAnswer}`);
         }
     }
     (async function main() {
+        let correctAnswers = 0;
         while (true) {
-            const userAnswer = askUserAnswer();
-            checkAnswer(userAnswer);
+          const userAnswer = askUserAnswer();
+          checkAnswer(userAnswer);
+          if (correctAnswers >= 4) {
+            break;
+          }
         }
-    })();
+      })();
 }
